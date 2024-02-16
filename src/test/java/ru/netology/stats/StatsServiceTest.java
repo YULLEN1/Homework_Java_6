@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 public class StatsServiceTest {
 
     @Test
-
     public void shouldFindSum() {
         StatsService service = new StatsService();
 
@@ -19,7 +18,6 @@ public class StatsServiceTest {
     }
 
     @Test
-
     public void shouldFindAverageSales() {
         StatsService service = new StatsService();
 
@@ -32,7 +30,6 @@ public class StatsServiceTest {
     }
 
     @Test
-
     public void shouldFindMaxSalesMonth() {
         StatsService service = new StatsService();
 
